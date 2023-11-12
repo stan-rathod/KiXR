@@ -25,11 +25,11 @@ public class FilterExample : MonoBehaviour, IRecyclableScrollRectDataSource
 
     private void Awake()
     {
-        if (Screen.orientation == ScreenOrientation.LandscapeLeft || 
-        Screen.orientation == ScreenOrientation.LandscapeRight)
-            _recyclableScrollRect.Segments = 6;
-        else
-            _recyclableScrollRect.Segments = 3;
+        // if (Screen.orientation == ScreenOrientation.LandscapeLeft || 
+        // Screen.orientation == ScreenOrientation.LandscapeRight)
+        //     _recyclableScrollRect.Segments = 6;
+        // else
+        //     _recyclableScrollRect.Segments = 3;
 
 
         InitData();
